@@ -1,6 +1,6 @@
 
 const key='299644c78a32481399b70805241805';//Login and Generate a session Key from the WeatherApi.com and paste here
-const city='';//write name of city here 
+const city='  ';//write name of city here 
 const url=`http://api.weatherapi.com/v1/current.json?key=${key}&q=${city}&aqi=no`;
 
 fetch(url)
